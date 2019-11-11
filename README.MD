@@ -5,8 +5,9 @@ you can work with them exactly as you would the normal collection.
 
 Installation:
 
-Just install the package, and you're done! All of the collections can be found
-in the SerializableCollections namespace.
+If installing from the repository, copy the SerializableCollections folder from
+inside the Packages folder to your project's Packages folder. Then, add the
+package using Unity's Package Manager window.
 
 Usage:
 
