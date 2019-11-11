@@ -16,17 +16,15 @@ web page (https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic
 The only major difference is that, due to the way Unity handles serialization,
 you need to declare a concrete class which makes use of these generics. So,
 for example, rather than doing this:
-
+```cs
 private List<string> listOfStrings = new List<string>();
-
+```
 You would do this:
-
+```cs
 [Serializable]
-
 public class StringList : List<string> {}
-  
 private StringList listOfStrings = new StringList();
-
+```
 You can create your classes inside the class you're working in, or you can
 create them in their own file for the rest of your program to take advantage
 of.
