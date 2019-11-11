@@ -1,17 +1,18 @@
 {
-	"name": "com.daemonlair.serializablecollections",
-	"version": "1.0.0",
-	"displayName": "Serializable Collections",
-	"description": "Equivalents of the data structures found in System.Collections.Generic that can be viewed in the editor and serialized by Unity.",
-	"unity": "2019.1",
-	"unityRelease": "14f1",
-	"keywords": [
-		"collections",
-		"dictionary",
-		"serializable"
-	],
-	"author": {
-		"name": "Dameon Laird",
-		"email": "dameonlair@gmail.com"
-	}
+  "name": "com.daemonlair.serializablecollections",
+  "version": "0.0.1",
+  "displayName": "Serializable Collections",
+  "description": "Equivalents of the data structures found in System.Collections.Generic that can be viewed in the editor and serialized by Unity.",
+  "unity": "2017.1",
+  "unityRelease": "5f1",
+  "keywords": [
+    "collections",
+    "dictionary",
+    "serializable"
+  ],
+  "author": {
+    "name": "Dameon Laird",
+    "email": "dameonlair@gmail.com"
+  },
+  "type": "library"
 }
