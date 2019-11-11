@@ -1,0 +1,12 @@
+Library/
+.vs/
+Temp/
+Build/
+obj/
+Logs/
+Tests.csproj
+SerializableCollections.sln
+SerializableCollections.csproj
+Runtime.csproj
+GUIAssembly.csproj
+Assembly-CSharp.csproj
