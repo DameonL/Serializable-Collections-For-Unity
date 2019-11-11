@@ -22,7 +22,9 @@ private List<string> listOfStrings = new List<string>();
 You would do this:
 
 [Serializable]
+
 public class StringList : List<string> {}
+  
 private StringList listOfStrings = new StringList();
 
 You can create your classes inside the class you're working in, or you can
